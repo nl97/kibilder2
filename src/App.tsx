@@ -193,7 +193,53 @@ function App() {
           </div>
         </div>
       </section>
-
+      <section className="py-16 bg-gradient-to-b from-background to-primary/5">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="relative overflow-hidden rounded-2xl bg-primary p-8 md:p-12">
+      <div className="absolute inset-0 bg-grid-white/10 [mask-image:linear-gradient(0deg,transparent,black)]" />
+      <div className="relative">
+        <div className="flex flex-col items-center text-center">
+          <Sparkles className="h-12 w-12 text-primary-foreground mb-4" />
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-4">
+            Entdecken Sie noch mehr Möglichkeiten
+          </h2>
+          <p className="text-lg text-primary-foreground/90 max-w-2xl mb-8">
+            Besuchen Sie Mind-Verse für fortgeschrittene Bildgenerierung, 
+            KI-gestützte Bildbearbeitung und professionelle Kreativtools. 
+            Erleben Sie die volle Kraft der KI-Bildgenerierung.
+          </p>
+          <a 
+            href="https://www.mind-verse.de" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-flex items-center gap-2 bg-background text-primary hover:bg-background/90 px-6 py-3 rounded-lg font-medium transition-colors"
+          >
+            <Wand2 className="h-5 w-5" />
+            Jetzt Mind-Verse entdecken
+          </a>
+        </div>
+        
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-primary-foreground/90">
+          <div className="flex flex-col items-center text-center">
+            <ImageIcon className="h-8 w-8 mb-3" />
+            <h3 className="font-medium mb-2">Erweiterte Bildbearbeitung</h3>
+            <p className="text-sm">Professionelle KI-Tools für perfekte Ergebnisse</p>
+          </div>
+          <div className="flex flex-col items-center text-center">
+            <Zap className="h-8 w-8 mb-3" />
+            <h3 className="font-medium mb-2">Schnellere Verarbeitung</h3>
+            <p className="text-sm">Optimierte Performance für Ihre Projekte</p>
+          </div>
+          <div className="flex flex-col items-center text-center">
+            <Settings className="h-8 w-8 mb-3" />
+            <h3 className="font-medium mb-2">Mehr Kontrolle</h3>
+            <p className="text-sm">Erweiterte Einstellungen und Anpassungen</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       <footer className="w-full border-t mt-12 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -229,3 +275,6 @@ function App() {
 }
 
 export default App;
+
+
+
