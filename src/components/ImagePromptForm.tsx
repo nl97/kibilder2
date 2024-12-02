@@ -24,22 +24,6 @@ export function ImagePromptForm({ onGenerate, isLoading }: ImagePromptFormProps)
     }
   };
 
-  const getStylePrompt = (basePrompt: string, style: ImageStyle): string => {
-    const stylePrompts: Record<ImageStyle, string> = {
-      'default': basePrompt,
-      'anime': `${basePrompt}, anime style, high quality anime art`,
-      'cartoon': `${basePrompt}, cartoon style, vibrant colors, clean lines`,
-      'sketch': `${basePrompt}, pencil sketch style, detailed drawing`,
-      'oil-painting': `${basePrompt}, oil painting style, textured, classical art`,
-      'van-gogh': `${basePrompt}, in the style of Van Gogh, post-impressionist, swirling brushstrokes`,
-      'landscape': `${basePrompt}, scenic landscape, panoramic view, nature photography style`,
-      'cyberpunk': `${basePrompt}, cyberpunk style, neon colors, futuristic, high tech`,
-      'fantasy-3d': `${basePrompt}, 3D rendered, fantasy art style, detailed, magical`
-    };
-
-    return stylePrompts[style];
-  };
-
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="space-y-4">

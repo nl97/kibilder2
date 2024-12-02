@@ -1,8 +1,8 @@
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { createSubscriptionSession, stripePromise, setCustomerId } from '@/lib/api/stripe';
-import { Sparkles, Loader2 } from 'lucide-react';
+import { Loader2, Sparkles } from 'lucide-react';
+import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
+import { stripePromise, createSubscriptionSession } from '@/lib/api/stripe';
 
 export function SubscriptionButton() {
   const [isLoading, setIsLoading] = useState(false);

@@ -1,4 +1,4 @@
-import { Sparkles, Wand2, Image as ImageIcon, Download } from 'lucide-react';
+import { Sparkles, Wand2, Image as ImageIcon } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 export function Hero() {

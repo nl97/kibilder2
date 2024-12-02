@@ -49,3 +49,8 @@ export interface GeneratedImage {
   style: ImageStyle;
   createdAt: Date;
 }
+
+export interface EditableImage {
+  file: File;
+  previewUrl: string;
+}
