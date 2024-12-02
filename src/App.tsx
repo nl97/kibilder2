@@ -119,6 +119,81 @@ function App() {
         <BlogSection />
       </main>
 
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
+        <div className="prose prose-gray dark:prose-invert max-w-none">
+          <h2 className="text-2xl font-semibold mb-6">
+            KI-Bildgenerator: Die Zukunft der Bildgestaltung
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <div>
+              <h3 className="text-xl font-medium mb-4">Vielseitige Anwendungsmöglichkeiten</h3>
+              <p className="text-muted-foreground">
+                Unser KI-Bildgenerator eignet sich perfekt für verschiedenste Bereiche:
+              </p>
+              <ul className="list-disc list-inside text-muted-foreground mt-2 space-y-2">
+                <li>Social Media Content und Marketing-Materialien</li>
+                <li>Webdesign und grafische Gestaltung</li>
+                <li>Produktvisualisierungen und Konzeptkunst</li>
+                <li>Bildung und wissenschaftliche Illustrationen</li>
+                <li>Persönliche kreative Projekte</li>
+              </ul>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-medium mb-4">Technologie und Innovation</h3>
+              <p className="text-muted-foreground">
+                Basierend auf modernsten KI-Modellen bietet unser Generator:
+              </p>
+              <ul className="list-disc list-inside text-muted-foreground mt-2 space-y-2">
+                <li>Hochauflösende Bildausgabe in verschiedenen Formaten</li>
+                <li>Intelligente Prompt-Optimierung für bessere Ergebnisse</li>
+                <li>Schnelle Verarbeitungszeit durch optimierte Algorithmen</li>
+                <li>Regelmäßige Updates und Verbesserungen</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="bg-muted/50 p-6 rounded-lg mb-8">
+            <h3 className="text-xl font-medium mb-4">Datenschutz und Sicherheit</h3>
+            <p className="text-muted-foreground">
+              Wir legen höchsten Wert auf den Schutz Ihrer Daten und die Sicherheit unseres Services. 
+              Alle Übertragungen erfolgen verschlüsselt, und wir speichern nur die notwendigsten Informationen 
+              gemäß DSGVO-Richtlinien. Die von Ihnen generierten Bilder gehören ausschließlich Ihnen und 
+              können uneingeschränkt für private und kommerzielle Zwecke verwendet werden.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            <h3 className="text-xl font-medium">Häufig gestellte Fragen</h3>
+            <div className="space-y-6">
+              <div>
+                <h4 className="font-medium">Wie viele Bilder kann ich kostenlos generieren?</h4>
+                <p className="text-muted-foreground">
+                  Mit unserem kostenlosen Plan können Sie täglich bis zu 3 Bilder generieren. 
+                  Für unbegrenzte Generierungen empfehlen wir unseren Premium-Plan.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-medium">Welche Bildformate werden unterstützt?</h4>
+                <p className="text-muted-foreground">
+                  Wir unterstützen verschiedene Formate: Quadratisch (1024x1024), Querformat (1792x1024) 
+                  und Hochformat (1024x1792), optimal für verschiedene Anwendungszwecke.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-medium">Wie kann ich die besten Ergebnisse erzielen?</h4>
+                <p className="text-muted-foreground">
+                  Verwenden Sie detaillierte Beschreibungen und experimentieren Sie mit verschiedenen Stilen. 
+                  Je präziser Ihre Eingabe, desto besser das Ergebnis. Nutzen Sie auch unsere Stilvorlagen 
+                  für optimierte Resultate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer className="w-full border-t mt-12 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
