@@ -260,7 +260,6 @@ function App() {
               <h3 className="font-semibold mb-4">Rechtliches</h3>
               <ul className="text-sm text-muted-foreground space-y-2">
                 <li><a href="https://www.mind-verse.de/legals/impressum" target="_blank" rel="noopener noreferrer">Impressum</a></li>
-                <li><a href="https://www.mind-verse.de/legals/impressum" target="_blank" rel="noopener noreferrer">AGB</a></li>
                 <li><a href="https://www.mind-verse.de/legals/impressum" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a></li>
               </ul>
             </div>
