@@ -7,7 +7,7 @@ import { QuotaDisplay } from '@/components/QuotaDisplay';
 import { GeneratedImagesSection } from '@/components/GeneratedImagesSection';
 import { BlogSection } from '@/components/BlogSection';
 import { GeneratedImage, ImageSize, ImageStyle } from '@/types';
-import { Sparkles } from 'lucide-react';
+import { Sparkles, Wand2, ImageIcon, Zap, Settings } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { generateImage } from '@/lib/api';
 import { canGenerateImage, incrementQuota } from '@/lib/quota';
