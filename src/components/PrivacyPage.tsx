@@ -53,25 +53,13 @@ export function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold mt-8 mb-4">Datenschutzbeauftragter</h2>
+              <h2 className="text-2xl font-semibold mt-8 mb-4">Kontakt für Datenschutzanfragen</h2>
               <p>
-                Als Datenschutzbeauftragten haben wir einen externen Spezialisten beauftragt:
-              </p>
-              <p className="mt-4">
-                Joerg Weißes<br />
-                quilin GmbH<br />
-                Max-Beckmann-Weg 66<br />
-                65428 Rüsselsheim am Main<br />
-                <a href="mailto:dpo@mind-verse.de" className="text-primary hover:underline">
-                  dpo@mind-verse.de
-                </a>
-              </p>
-              <p className="mt-4">
-                Bei operativen Datenschutzanliegen (Auskunftsersuchen etc.) wenden Sie sich bitte an 
-                unsere allgemeine E-Mail-Adresse{' '}
-                <a href="mailto:info@mind-verse.de" className="text-primary hover:underline">
-                  (info@mind-verse.de)
-                </a>
+                Bei Fragen zum Datenschutz oder zur Ausübung Ihrer Datenschutzrechte wenden Sie sich
+                bitte an die Relativity GmbH unter{' '}
+                <a href="mailto:info@relativitygmbh.de" className="text-primary hover:underline">
+                  info@relativitygmbh.de
+                </a>.
               </p>
             </section>
 
